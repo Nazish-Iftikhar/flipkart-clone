@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+    <title>flipkart.com</title>
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
+        integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- custom cdn icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header code -->
+    <header>
+        <div class="main-container">
+            <div class="container1">flipkart</div>
+            <div class="container2">Explore</div>
+            <div class="container3">Plus+</div><i class="ri-search-line" id="search"></i>
+            <div class="container4"> <input type="text" id="input" placeholder="Search for Products,Brands and More">
+            </div>
+            <div class="container5"><i class="ri-account-circle-line" id="login">login</i><i
+                    class="ri-arrow-down-s-line"></i></div>
+            <div class="container6"><i class="ri-shopping-cart-2-line" id="cart">Cart</i></div>
+            <div class="container7"><i class="ri-archive-line" id="seller">Become a Seller</i></div>
+            <div class="container8"><i class="ri-more-2-fill"></i></div>
+            </idv>
+    </header>
+    <!-- body styling -->
+    <div class="main-container1">
+        <div class="pic1">
+            <img src="/grocery.jpg" alt="" id="pic1">
+            <div class="grocery">Grocery</div>
+        </div>
+        <div class="pic2">
+            <img src="/phones.jpg" alt="" id="pic2">
+            <div class="mobiles">Mobiles</div>
+        </div>
+        <div class="pic3">
+            <img src="fashion.png" alt="" id="pic3">
+            <div class="fashion">Fashion
+            <button class="dropdown-btn" onclick="toggleDropdown()"> <i class="ri-arrow-down-s-line"></i></button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="#">Kids</a>
+                <a href="#">Women fashion</a>
+                <a href="#">Mens</a>
+                <a href="#">Women footware</a>
+              </div>
+            </div>
+        </div>
+        <div class="pic4">
+            <img src="/electronics.jpg" alt="" id="pic4">
+            <div class="electronics">Electronics
+                <!-- <i class="ri-arrow-down-s-line"></i> -->
+            </div> 
+        </div>
+        
+        <div class="pic5">
+            <img src="/home.jpg" alt="" id="pic5">
+            <div class="home">
+                <!-- <i class="ri-arrow-down-s-line"></i> -->
+                <a href="/furniture.html" id="page3">Furniture</a>
+            </div> 
+        </div>
+        <div class="pic6" >
+            <img src="/appliances.jpg" alt="" id="pic6">
+            <div class="appliances">
+              <a href="/Appliances.html" id="page2">Appliances</a>
+            </div>
+            
+             
+        </div>
+        <div class="pic7">
+            <img src="/travel.jpg" alt="" id="pic7">
+            <div class="travel">Travel</div>
+        </div>
+        <div class="pic8">
+            <img src="/toys.jpg" alt="" id="pic8">
+            <div class="beauty">Beauty,Toys & More
+                <!-- <i class="ri-arrow-down-s-line"></i> -->
+            </div>
+        </div>
+        <div class="pic9">
+            <img src="/wheels.jpg" alt="" id="pic9">
+            <div class="wheels">Wheels
+                <!-- <i class="ri-arrow-down-s-line"></i> -->
+            </div>
+        </div>
+
+    </div>
+    <!-- Slider styling -->
+     
+
+       <div class="slider">
+       
+        <figure>
+            <div class="slide">
+                <img src="/slide1.jpg" alt="" id="slide1">
+            </div>
+            <div class="slide">
+                <img src="/slide2.jpg" alt="" id="slide2">
+            </div>
+            <div class="slide">
+                <img src="/slide3.jpg" alt="" id="slide3">
+            </div>
+            <div class="slide">
+                <img src="/slide4.jpg" alt="" id="slide4">
+            </div>
+            <div class="slide">
+                <img src="/slide5.jpg" alt="" id="slide5">
+            </div>
+        </figure>
+    </div>
+
+    <!-- best of electronics  -->
+    <h2 alt="Best of Consumer Electronics Show">Best of Consumer Electronics Show</h2>
+    <div class="best-electronics" >
+        <div class="item1" data-name="p-1">
+            <img src="/usb.jpg" alt="">
+            <p  alt="Discover the standout products of CES 2024."><b>"Discover the standout products of CES 2024."</b></p>
+            <button class="buybtn" >add to Cart</button>
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>  
+         <div class="item1" data-name="p-1">
+            <img src="/projector.jpg" alt="">
+            <p  alt="Discover the standout products of CES 2024."><b>"Discover the standout products of CES 2024."</b></p>
+            <button class="buybtn">add to Cart</button>
+        </div>
+
+        <div class="item1"  data-name="p-1">
+            <img src="/led.jpg" alt="">
+            <p  alt="Discover the standout products of CES 2024."><b>"Discover the standout products of CES 2024."</b></p>
+            <button class="buybtn">add to Cart</button>
+        </div>
+
+        <div class="item1">
+            <img src="/keyboard.jpeg" alt="">
+            <p  alt="Discover the standout products of CES 2024."><b>"Discover the standout products of CES 2024."</b></p>
+            <button class="buybtn">add to Cart</button>
+        </div>
+
+        <div class="item1">
+            <img src="electronic5.jpg" alt="">
+            <p  alt="Discover the standout products of CES 2024."><b>"Discover the standout products of CES 2024."</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+    </div>
+
+    <!-- Beauty food toys and more styling -->
+    <h2 alt="Beauty and hair supplies near me">Beauty and hair supplies near me</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="/beauty.jpg" alt="">
+            <p alt="Discover beauty products close to you"><b> "Discover beauty products close to you"</b></p>
+            <button class="buybtn">add to Cart</button>
+        </div>
+
+        <div class="item1">
+            <img src="/yogamat.jpg" alt="">
+            <p alt="Discover beauty products close to you"><b> "Discover beauty products close to you"</b></p>
+            <button class="buybtn">add to Cart</button>
+        </div>
+
+        <div class="item1">
+            <img src="/book.jpg" alt="">
+            <p alt="Discover beauty products close to you"><b> "Discover beauty products close to you"</b></p>
+            <button class="buybtn">add to Cart</button>
+        </div>
+
+        <div class="item1">
+            <img src="/stationary.jpg" alt="">
+            <p alt="Discover beauty products close to you"><b> "Discover beauty products close to you"</b></p>
+            <button class="buybtn">add to Cart</button>
+        </div>
+
+        <div class="item1">
+            <img src="toys1.jpg" alt="">
+            <p alt="Discover beauty products close to you"><b> "Discover beauty products close to you"</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+    </div>
+
+
+    <!--shop's for mens tshirt-->
+    <h2 alt="Men wear formal
+    ">Men wear formal
+</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="shirt1.jpg" alt="">
+            <p alt="Men's Fashion Sale" alt="SHOP OUR EXCLUSIVE SALE"><b>Men's Fashion Sale <br>"SHOP OUR EXCLUSIVE SALE"</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+
+        <div class="item1">
+            <img src="shirt6,jpg.webp" alt="">
+            <p alt="Men's Fashion Sale" alt="SHOP OUR EXCLUSIVE SALE"><b>Men's Fashion Sale <br>"SHOP OUR EXCLUSIVE SALE"</b></p>
+            <button class="buybtn">add to cart</button>
+        </div>
+
+
+
+
+        <div class="item1">
+            <img src="shirt3.jpg" alt="">
+            <p alt="Men's Fashion Sale" alt="SHOP OUR EXCLUSIVE SALE"><b>Men's Fashion Sale <br>"SHOP OUR EXCLUSIVE SALE"</b></p>
+            <button class="buybtn">add to cart</button>
+        </div>
+
+        <div class="item1">
+            <img src="shirt4.jpg" alt="">
+            <p alt="Men's Fashion Sale" alt="SHOP OUR EXCLUSIVE SALE"><b>Men's Fashion Sale <br>"SHOP OUR EXCLUSIVE SALE"</b></p>
+            <button class="buybtn">add to cart</button>
+        </div>
+
+        <div class="item1">
+            <img src="shirt5.jpg" alt="">
+            <p alt="Men's Fashion Sale" alt="SHOP OUR EXCLUSIVE SALE"><b>Men's Fashion Sale <br>"SHOP OUR EXCLUSIVE SALE"</b></p>
+            <button class="buybtn">add to cart</button>
+        </div>
+
+    </div>
+
+    <!-- Boutique clothing for Women's wholesale -->
+    <h2 alt="Boutique clothing for Women's wholesale">Boutique clothing for Women's wholesale</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="women1.jpg" alt="">
+            <p alt="shop Sophisticated suits Tailored for Women"><b>"Shop Sophisticated suits<br>Tailored for Women"</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+
+
+        <div class="item1">
+            <img src="women2.jpg" alt="">
+            <p alt="shop Sophisticated suits Tailored for Women"><b>"Shop Sophisticated suits<br>Tailored for Women"</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="women3.jpg" alt="">
+            <p alt="shop Sophisticated suits Tailored for Women"><b>"Shop Sophisticated suits<br>Tailored for Women"</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="women4.jpg" alt="">
+            <p alt="shop Sophisticated suits Tailored for Women"><b>"Shop Sophisticated suits<br>Tailored for Women"</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="women5.jpg" alt="">
+            <p alt="shop Sophisticated suits Tailored for Women"><b>"Shop Sophisticated suits<br>Tailored for Women"</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+    </div> 
+    
+
+    
+    
+    <!--home and kitchen essential-->
+    <h2>Home And Kitchen Essentials</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="home essential pic1.webp" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+
+
+        <div class="item1">
+            <img src="home essential pic2.jpg" alt="">
+            <p><b>AFFORDABLE OPTIONS<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="home essential pic3.jpg" alt="">
+            <p><b>MOST LOVED<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="home essential pic4.jpg" alt="">
+            <p><b>TOP RATED<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="home essential pic5.jpg" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+    </div> 
+
+    <!--travel essential piks-->
+    <h2>Travel Essential Piks</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="travel essentialpic1.jpg" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+
+
+        <div class="item1">
+            <img src="travel essentialpic2.jpg" alt="">
+            <p><b>AFFORDABLE OPTIONS<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="travel essentialpic3.jpg" alt="">
+            <p><b>MOST LOVED<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="travel essentialpic4.jpg" alt="">
+            <p><b>TOP RATED<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="travel essentialpic5.jpg" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+    </div> 
+
+       <!--end of season-->
+    <h2>End Of Season BestSellers</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="shirt6,jpg.webp" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+
+
+        <div class="item1">
+            <img src="end seasonpic2.jpg" alt="">
+            <p><b>AFFORDABLE OPTIONS<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="end seasonpic3.jpg" alt="">
+            <p><b>MOST LOVED<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="women1.jpg" alt="">
+            <p><b>TOP RATED<br>Min 50%OFF</b></p>
+            <button class="buybtn"> add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="suggestedpic1.jpg" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+    </div> 
+    <!--fashion top deals-->
+    <h2>Fashion Top Deals</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="fashion top-pic1.webp" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+
+
+        <div class="item1">
+            <img src="fashion top-pic2.jpg" alt="">
+            <p><b>AFFORDABLE OPTIONS<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="fashion top-pic3.jpg" alt="">
+            <p><b>MOST LOVED<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="fashion top-pic4.jpg" alt="">
+            <p><b>Lavie,caprese<br>Min 50%OFF <br>grab the deal now</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="fashion top-pic5.jpg" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+    </div> 
+
+    <!--winter best sellers-->
+    <h2>Winter Best Buys</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="winter pic1.webp" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+
+
+        <div class="item1">
+            <img src="winter pic2.jpg" alt="">
+            <p><b>AFFORDABLE OPTIONS<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="winter pic4.jpg" alt="">
+            <p><b>MOST LOVED<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="winter pic.jpg" alt="">
+            <p><b>Lavie,caprese<br>Min 50%OFF <br>grab the deal now</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="winter pic5.jpg" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+    </div> 
+
+     <!--incense sticks for you-->
+    <h2>Incense Stick For You</h2>
+    <div class="best-electronics">
+        <div class="item1">
+            <img src="insence pic2.jpg" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+
+
+        <div class="item1">
+            <img src="incense pic1.jpg" alt="">
+            <p><b>AFFORDABLE OPTIONS<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="insence pic3.jpg" alt="">
+            <p><b>MOST LOVED<br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="insence pic4.jpg" alt="">
+            <p><b>Lavie,caprese<br>Min 50%OFF <br>grab the deal now</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+        <div class="item1">
+            <img src="incense pic5.jpg" alt="">
+            <p><b>BEST DISCOUNT <br>Min 50%OFF</b></p>
+            <button class="buybtn">add to cart</button>
+
+        </div>
+
+    </div> 
+     <!-- Footer body -->
+    <footer>
+        <div class="left-side">
+     
+        <div>
+     
+         <div class="title">Home</div>
+     
+          <div><a href="#">Contact Us</a></div>
+          <div><a href="#">About Us</a></div>
+          <div><a href="#">Careers</a></div>
+          <div><a href="#">Flipkart Stories</a></div>
+          <div><a href="#">Press</a></div>
+          <div><a href="#">Flipkart Wholesales</a></div>
+          <div><a href="#">Cleartip</a></div>
+          <div><a href="#">Corporation Information</a></div>
+     
+        </div>
+     
+        <div>
+         <div class="title">Help</div>
+     
+         <div><a href="#">Payments</a></div>
+         <div><a href="#">Shipping</a></div>
+         <div><a href="#">Cancellations</a></div>
+         <div><a href="#">FAQ</a></div>
+         <div><a href="#">Report INfrigment</a></div>
+         
+        </div>
+     
+        <div>
+         <div class="title">Consumer service</div>
+     
+         <div><a href="#">Cancellations & Returns</a></div>
+         <div><a href="#">Terms of Us</a></div>
+         <div><a href="#">Security</a></div>
+         <div><a href="#">Privacy</a></div>
+         <div><a href="#">Sitemap</a></div>
+         <div><a href="#">Grievance Redressel</a></div>
+         <div><a href="#">EPR Compilations</a></div>
+     
+        </div>
+        
+        <div>
+         <div class="title">Social</div>
+     
+     
+         <div><a href="#">Facebook</a></div>
+         <div><a href="#">Twitter</a></div>
+         <div><a href="#">YouTube</a></div>
+        </div>
+     
+        </div>
+     
+        <div class="right-side">
+         <div>
+         <div class="title">Mail us:</div>
+     
+          <samp>
+             Flipkart Internet Private Limited,
+             BUildings Alyssa Begonia &
+             CLove Embassy Tech Village,
+             Outer Ring Goad Devarabeesanahill Village,
+             Benguluru, 560103,
+             Karnataka, India
+     
+          </samp>
+         </div>
+     
+         <div>
+         <div class="title">Registered office Address</div>
+     
+         <samp>
+             Flipkart Internet Private Limited,
+             BUildings Alyssa Begonia &
+             CLove Embassy Tech Village,
+             Oter Ring Goad Devarabeesanahill Village,
+             Bengaluru, India
+             CIN : U51109KA2012PT66107
+             Telephone : 02245959479
+         </samp>
+     
+         </div>
+     
+        </div>
+        </footer>
+  
+<!-- pop-up msg -->
+<div class="card">
+    <div class="preview active" data_target = "p-1">
+    <img src="" alt="">
+    <h1>Flipkart.Com</h1>
+ <i class="fas fa-times"></i>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+</div>
+<p><b>TOP SELLERS</b></p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+    </div>
+</div>
+        
+
+
+ <script src="/script.js"></script>
+</body>
+
+</html>
